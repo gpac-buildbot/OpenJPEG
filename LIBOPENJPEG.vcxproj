@@ -96,6 +96,7 @@
     </Lib>
     <ClCompile>
       <PreprocessorDefinitions>_WIN64</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
