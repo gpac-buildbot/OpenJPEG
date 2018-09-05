@@ -85,6 +85,7 @@
     <ClCompile>
       <PreprocessorDefinitions>WIN32;OPJ_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <DebugInformationFormat>None</DebugInformationFormat>
     </ClCompile>
     <Lib>
       <OutputFile>..\lib\$(Platform)\$(Configuration)\$(ProjectName).lib</OutputFile>
