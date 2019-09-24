@@ -66,18 +66,18 @@ ENDIF(EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/openjpeg_mangle.h.in)
 INCLUDE_DIRECTORIES(BEFORE ${CMAKE_CURRENT_BINARY_DIR})
 SUBDIRS(
   libopenjpeg
-  mj2
+  #mj2
   # cmake 2.4.5 has poor java support
   #j2kviewer/src
   )
 
-IF(NOT UNIX)
-SUBDIRS(
-  jpwl
-  jp3d
-  indexer_JPIP
-  )
-ENDIF(NOT UNIX)
+#IF(NOT UNIX)
+#SUBDIRS(
+#  jpwl
+#  jp3d
+#  indexer_JPIP
+#  )
+#ENDIF(NOT UNIX)
 
 #-----------------------------------------------------------------------------
 # Build example only if requested
